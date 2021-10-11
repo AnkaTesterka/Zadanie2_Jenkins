@@ -26,6 +26,9 @@ public class TestBase {
     public static Properties config;
     public static Properties testdata;
 
+    public static String user;
+    public static String password;
+
     public TestBase(){
         try {
             config = new Properties();
@@ -58,6 +61,9 @@ public class TestBase {
         String deleteAllCookies = config.getProperty("deleteAllCookies");
         String waitTimeout = config.getProperty("waitTimeout");
         String grid = config.getProperty("GRID");
+
+        user = System.getProperty("User");
+        password = System.getProperty("Password");
 
         switch (browser) {
             case "chrome":

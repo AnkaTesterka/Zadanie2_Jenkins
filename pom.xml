@@ -64,6 +64,12 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.12</version>
                 <configuration>
+                    <systemPropertyVariables>
+                        <!--suppress UnresolvedMavenProperty -->
+                        <User>${User}</User>
+                        <!--suppress UnresolvedMavenProperty -->
+                        <Password>${Password}</Password>
+                    </systemPropertyVariables>
                     <suiteXmlFiles>
                             <suiteXmlFile>AllTest_FrameworkPOM.xml</suiteXmlFile>
                     </suiteXmlFiles>

@@ -32,7 +32,7 @@ public class OrderConfirmedPageTest extends TestBase {
         globalMethods = new GlobalMethods();
 
         loginPage = homePage.goToLoginPage();
-        accountPage = loginPage.login(testdata.getProperty("userLogin"), testdata.getProperty("userPassword"));
+        accountPage = loginPage.login(user,password);
         accountPage.goToOrders();
     }
 
