@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SeleniumFrameworkPOMReports]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="reports.ExtentReporter"/>
+  </listeners>
+  <test thread-count="5" name="Test - Address Page(failed)" verbose="0">
+    <classes>
+      <class name="test.AddressPageTest">
+        <methods>
+          <include name="verifyNoDeliveryAddress"/>
+          <include name="setUp"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- test.AddressPageTest -->
+    </classes>
+  </test> <!-- Test - Address Page(failed) -->
+</suite> <!-- Failed suite [SeleniumFrameworkPOMReports] -->

@@ -1,0 +1,10 @@
+base\TestBase.class
+helpers\GlobalMethods.class
+pages\LoginPage.class
+pages\HomePage.class
+pages\AddressPage.class
+reports\ExtentReporter.class
+pages\DeliveryAddressDetailsPage.class
+pages\ProductListPage.class
+pages\OrderConfirmedPage.class
+pages\AccountPage.class

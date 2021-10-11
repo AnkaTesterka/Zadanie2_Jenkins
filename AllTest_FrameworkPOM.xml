@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SeleniumFrameworkPOMReports">
+    <listeners>
+            <listener class-name="reports.ExtentReporter" />
+    </listeners>
+    
+    <test name="Test - Login Page">
+        <classes>
+            <class name="test.LoginPageTest"></class>
+        </classes>
+    </test>
+
+    <test name="Test - Order Confirmation Page">
+        <classes>
+            <class name="test.OrderConfirmedPageTest"></class>
+        </classes>
+    </test>
+    
+    <test name="Test - Account Page">
+        <classes>
+            <class name="test.AccountPageTest"></class>
+        </classes>
+    </test>
+    
+    <test name="Test - Address Page">
+        <classes>
+            <class name="test.AddressPageTest"></class>
+        </classes>
+    </test>
+    
+    <test name="Test - Delivery Address Details Page">
+        <classes>
+            <class name="test.DeliveryAddressDetailsPageTest"></class>
+        </classes>
+    </test>
+    
+    <test name="Test - Product List Page">
+        <classes>
+            <class name="test.ProductListPageTest"></class>
+        </classes>
+    </test>
+    
+</suite>

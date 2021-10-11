@@ -1,0 +1,6 @@
+test\DeliveryAddressDetailsPageTest.class
+test\LoginPageTest.class
+test\ProductListPageTest.class
+test\AccountPageTest.class
+test\AddressPageTest.class
+test\OrderConfirmedPageTest.class
