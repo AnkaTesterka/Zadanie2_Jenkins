@@ -47,6 +47,7 @@ public class AddressPageTest extends TestBase {
 
     /** TESTY **/
     @Test(priority = 0)
+    @Ignore
     public void verifyNoDeliveryAddress() {
         Assert.assertTrue(addressPage.getInfoDeliveryAddress().equalsIgnoreCase(testdata.getProperty("correctInfoAboutDeliveryAddress")));
         globalMethods.takeScreenshot(this.getClass().getSimpleName(), 1);
