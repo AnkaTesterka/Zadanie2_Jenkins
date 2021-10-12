@@ -28,6 +28,7 @@ public class TestBase {
 
     public static String user;
     public static String password;
+    public static String browser;
 
     public TestBase(){
         try {
@@ -55,7 +56,7 @@ public class TestBase {
         DesiredCapabilities capabilities;
 
         String url = config.getProperty("URL");
-        String browser = config.getProperty("browser");
+
         String pageLoadTimeout = config.getProperty("pageLoadTimeout");
         String windowsMaximize = config.getProperty("windowsMaximize");
         String deleteAllCookies = config.getProperty("deleteAllCookies");
@@ -64,6 +65,7 @@ public class TestBase {
 
         user = System.getProperty("User");
         password = System.getProperty("Password");
+        browser = System.getProperty("Browser");
 
         switch (browser) {
             case "chrome":

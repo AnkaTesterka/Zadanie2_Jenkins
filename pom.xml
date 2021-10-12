@@ -69,6 +69,8 @@
                         <User>${User}</User>
                         <!--suppress UnresolvedMavenProperty -->
                         <Password>${Password}</Password>
+                        <!--suppress UnresolvedMavenProperty -->
+                        <Browser>${Browser}</Browser>
                     </systemPropertyVariables>
                     <suiteXmlFiles>
                             <suiteXmlFile>AllTest_FrameworkPOM.xml</suiteXmlFile>
